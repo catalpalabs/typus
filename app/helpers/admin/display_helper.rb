@@ -47,6 +47,7 @@ module Admin
     alias_method :display_integer, :display_string
     alias_method :display_decimal, :display_string
     alias_method :display_float, :display_string
+    alias_method :display_date, :display_datetime
 
   end
 end
